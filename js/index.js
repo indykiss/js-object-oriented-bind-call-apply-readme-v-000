@@ -5,7 +5,7 @@ function greet(customerOne, customerTwo) {
     console.log(`Hi ${customerOne} and ${customerTwo}, my name is ${this.name}!`);
 }
 
-greet(); // my name is , hi!
+greet.call(sally, 'Terry', 'George');
 
 let person = {
     name: 'Bob',
