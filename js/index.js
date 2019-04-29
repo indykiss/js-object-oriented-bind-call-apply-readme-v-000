@@ -12,4 +12,4 @@ let person = {
     greet: greet
 };
 
-person.greet(); 
+person.greet();
