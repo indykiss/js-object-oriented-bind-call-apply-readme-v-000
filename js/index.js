@@ -9,11 +9,3 @@ function greet(customerOne, customerTwo) {
 greet.call(sally, 'Terry', 'George');
 
 greet.apply(sally, ['Terry', 'George']);
-
-
-let person = {
-    name: 'Bob',
-    greet: greet
-};
-
-person.greet();
